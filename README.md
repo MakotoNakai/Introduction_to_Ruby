@@ -1,5 +1,4 @@
-# Introduction_to_Ruby
-Just typing the codes on https://qiita.com/Chrowa3/items/87075edec0a77ac104d6 and tic-tac-toe from scratch
+# How to play tic-tac-toe on your computer
 
 1. `git clone https://github.com/MakotoNakai/Introduction_to_Ruby.git`
 
