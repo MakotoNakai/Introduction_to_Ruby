@@ -40,7 +40,7 @@ class Player
         column = choice[0].to_i
         row = choice[2].to_i
         
-        # The case when you choose a non-existed grid 
+        # The case when you choose a non-existing grid 
         if column < 1 or column > 3 or row < 1 or row > 3 then
         
             p "There is no such grid on the board."
