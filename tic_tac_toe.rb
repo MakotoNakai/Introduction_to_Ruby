@@ -33,6 +33,7 @@ class Player
     def is_empty
      
         p "At which grid would you like to place your sign?"
+        p"\n"
         p "Please write down the number of column, then that of row"
         p "For example, if you wanna fill the grid on the column 1 and row 2, write 1-2"
         choice = gets
@@ -72,6 +73,7 @@ class Player
             
         end while cell_is_empty == false
         
+        p"\n"
         p "This is how the board looks like right now."
         @board.show
         
@@ -104,7 +106,9 @@ class Game
             
             # Player 1's turn
             p "Player 1's turn"
+            p"\n"
             @player1.enter_char
+            p"\n"
             
             # See whether the game is done or not & who won the game
             done, pattern = self.is_done
@@ -124,7 +128,9 @@ class Game
         
             # Player 2's turn
             p"Player 2's turn"
+            p"\n"
             @player2.enter_char 
+            p"\n"
             
             # See whether the game is done or not & who won the game
             done, pattern = self.is_done
